@@ -23,3 +23,39 @@
     width:100%;
     padding-bottom: 20px;
 }
+
+.form-holder{
+    width: 90%;
+    max-width:400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.form-holder form{
+    width: 90%;
+}
+
+.form-holder  button{
+    display: block;
+    width: 100%;
+    font-size: 1.1 rem;
+    padding:0.7rem 0.9rem;
+    margin-top: 1rem;
+    border-radius: 0.8rem;
+    outline: none;
+    background: rgb(89,34,216);
+    cursor: pointer;
+    transition:0.15s ease-in-out;
+
+
+}
+
+.form-holder form button:hover{
+    background: rgb(112,67,219);
+
+}
+
+
