@@ -58,4 +58,74 @@
 
 }
 
+.form-holder h1{
+    font-size:1.8rem;
+    padding-bottom: 1.5rem;
+    letter-spacing:1px;
+
+}
+.form-holder .form-item{
+    padding-bottom: 1.1rem;
+}
+
+
+.form-holder .form-item label{
+    color: rgb(55,22,133);
+    font-weight: 600;
+}
+
+.form-holder .form-item input[type="text"],
+.form-holder .form-item input[type="password"]{
+    width:100%;
+    padding:0.6rem 0.8rem;
+    margin-top: 0.3rem;
+    border: 0;
+    background: #f5f8fa;
+    border:1px solid#ccc;
+    border-radius: 0.8rem;
+    transition:0.2s linear;
+    opacity: 0.9;
+}
+
+.form-holder .form-item input[type="text"]:focus,
+.form-holder .form-item input[type="password"]:focus{
+    border: 1px solid #555;
+    background:#fff;
+    opacity: 1;
+}
+
+.form-holder .form-item.forgot{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: -0.8rem;
+}
+
+.form-holder .form-item.forgot a{
+    font-size:0.9rem;
+    columns: rgb(86,49,170);
+    text-decoration: none;
+}
+
+.form-holder .form-item.forgot a:hover{
+    text-decoration: underline;
+}
+
+.log-in-maker{
+    padding: 20px;
+    color:lightblue;
+}
+
+@media screen and(min-width:768px){
+    .container{
+        flex-direction: row;
+    }
+    .img-box{
+        padding-right: 40px;
+
+    }
+    .form-holder h1{
+        padding-bottom: 2.3rem;
+    }
+    
+}
 
